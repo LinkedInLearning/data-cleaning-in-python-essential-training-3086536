@@ -1,0 +1,9 @@
+Year,Month,Start,End,Name,Earnings
+2021,,,,
+,June,,,,
+,,1,3,gRPC in Go,"$33,019"
+,,7,10,Optimizing Python,"$42,238"
+,,28,30,python Foundations,"$24,372"
+,July,,,,
+,,5,8,go concurrency,"$46,382"
+,,21,22,Writing Secure Go,"$27,038"
