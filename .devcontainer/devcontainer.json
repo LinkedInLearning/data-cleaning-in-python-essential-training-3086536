@@ -3,10 +3,6 @@
     "GitHub.github-vscode-theme",
     "ms-python.python"
   ],
-  "onCreateCommand" : [
-      "python -m pip install --upgrade pip",
-      "python -m pip install -r ${localWorkspaceFolder}/requirements.txt",
-      "echo PS1='\"$ \"' >> ~/.bashrc"
-  ]
+  "onCreateCommand" : "bash ${localWorkspaceFolder}/.devcontainer/init.sh"
 }
 
