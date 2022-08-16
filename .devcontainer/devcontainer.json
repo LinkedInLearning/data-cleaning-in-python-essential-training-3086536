@@ -1,8 +1,11 @@
 {
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
   "extensions": [
     "GitHub.github-vscode-theme",
     "ms-python.python"
   ],
-  "onCreateCommand" : "bash ${localWorkspaceFolder}/.devcontainer/init.sh"
+  "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc"
 }
-
