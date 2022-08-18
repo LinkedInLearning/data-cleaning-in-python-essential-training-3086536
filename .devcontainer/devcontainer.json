@@ -11,6 +11,5 @@
 	"GitHub.github-vscode-theme",
 	"ms-python.python"
     ],
-    "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc",
-    "remoteUser": "vscode"
+    "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc"
 }
