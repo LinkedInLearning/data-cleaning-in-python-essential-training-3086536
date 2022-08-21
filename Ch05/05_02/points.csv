@@ -1,0 +1,4 @@
+x,y,color,visible
+1,1,0xFF0000,yes
+2,2,0x00FF00,no
+3,3,0x0000FF,yes
