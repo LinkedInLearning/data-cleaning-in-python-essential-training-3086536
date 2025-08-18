@@ -3,14 +3,14 @@
 	"dockerfile": "Dockerfile",
 	"context": "..",
 	"args": { 
-	    "VARIANT": "3.10-bullseye",
+	    "VARIANT": "3.13-bookworm",
 	    "NODE_VERSION": "lts/*"
 	}
     },
     "extensions": [
-	"GitHub.github-vscode-theme",
-	"ms-python.python",
-	"ms-toolsai.jupyter"
+		"GitHub.github-vscode-theme",
+		"ms-python.python",
+		"ms-toolsai.jupyter"
     ],
     "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc"
 }
